@@ -38,16 +38,19 @@ namespace Shapes
         private static void drawSmallShape()
         {
             shapes.Add(factory.GetSmallShape());
+            Console.WriteLine(shapes.Last());
         }
 
         private static void drawMediumShape()
         {
             shapes.Add(factory.GetMediumShape());
+            Console.WriteLine(shapes.Last());
         }
 
         private static void drawLargeShape()
         {
             shapes.Add(factory.GetLargeShape());
+            Console.WriteLine(shapes.Last());
         }
     }
 }
